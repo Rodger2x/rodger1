@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Joshua Vergara</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span class="logo-badge">J</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="contact">
+    <div class="contact-wrapper">
+      <h2>CONTACT ME!</h2>
+      <form class="contact-form" action="https://formspree.io/f/xjkyjgjp" method="POST">
+        <input type="text" name="name" placeholder="FULL NAME" required>
+        <input type="email" name="email" placeholder="EMAIL ADDRESS" required>
+        <input type="text" name="phone" placeholder="NUMBER (OPTIONAL)">
+        <input type="text" name="subject" placeholder="SUBJECT" required>
+        <textarea name="message" placeholder="MESSAGE" required></textarea>
+        <button class="send-btn" type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Joshua Vergara. All rights reserved.</p>
+  </footer>
+</body>
+</html>
